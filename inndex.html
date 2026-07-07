@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FindMyRoomie | Roommate Finder India</title>
+  <style>
+    /* Reset and Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Navbar */
+    header {
+      background-color: #ffffff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 1.6em;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 25px;
+      font-size: 1em;
+      color: #555;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #4CAF50;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      margin-bottom: 25px;
+    }
+
+    .search-btn {
+      background-color: #4CAF50;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .search-btn:hover {
+      background-color: #45a049;
+    }
+
+    /* Features Section */
+    .features {
+      padding: 60px 40px;
+      background-color: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .feature {
+      flex: 1 1 30%;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .feature h3 {
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #ddd;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #4CAF50;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        padding: 30px 20px;
+      }
+
+      .feature {
+        margin: 10px 0;
+      }
+
+      .hero h1 {
+        font-size: 2em;
+      }
+
+      .hero p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">FindMyRoomie</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Search</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Find Your Perfect Roommate in India</h1>
+      <p>Browse verified profiles and find someone who truly matches your vibe.</p>
+      <button class="search-btn">Start Searching</button>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="feature">
+      <h3>Verified Profiles</h3>
+      <p>All users are verified to ensure a safe and trustworthy experience.</p>
+    </div>
+    <div class="feature">
+      <h3>City-Based Search</h3>
+      <p>Find roommates in cities like Bangalore, Mumbai, Delhi, Pune, and more.</p>
+    </div>
+    <div class="feature">
+      <h3>Chat & Connect</h3>
+      <p>Connect with potential roommates through our secure chat platform.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FindMyRoomie. All rights reserved. | <a href="#">Privacy Policy</a></p>
+  </footer>
+
+</body>
+</html>
